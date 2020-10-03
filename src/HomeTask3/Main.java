@@ -19,7 +19,7 @@ public class Main {
             if(tryAgain) {
             int num = (int)(Math.random()*9);
             System.out.println(num);//загаданное число
-            System.out.println("Введите целое число от 1 до 9");
+            System.out.println("Введите целое число от (1 до 9)");
             Scanner scan = new Scanner(System.in);
             if(scan.hasNextInt())
             {
